@@ -40,6 +40,10 @@ main {
 
 /*HEADER*/ 
 
+.linksNav:hover {
+    color: #6a6969;
+}
+
 .cabecera {  background-color: #3c3c3c;
     border-bottom: 1em solid #333333;
     margin: 0;
