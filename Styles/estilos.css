@@ -1,0 +1,347 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+*{margin: 0%;
+    padding: 0%;
+    font-family: "Glacial";
+    }
+
+    @font-face {
+        font-family: "Glacial";
+        src: url(../Fonts/GlacialIndifference.otf);
+    }
+
+ /* General */ 
+
+:root {
+    --color-principal:   #303030;
+    --color-secundario: rgb(77, 77, 77);
+}
+
+#Search {display: flex;
+    position: absolute ;
+    top: 1em;
+    right: 5em;
+    justify-content:flex-start;
+    margin:   1em;
+    height: 1.3em;
+} 
+
+#Shop {display: flex;
+    position: absolute ;
+    top: 1em;
+    right: 0.5em;
+    justify-content:flex-start;
+    margin:   1em;
+    height: 1.3em;
+} 
+
+#Cuenta {display: flex;
+        position: absolute ;
+        top: 1em;
+        justify-content:start;
+        margin:   1em;
+        height: 1.3em;
+} 
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #515151;
+    font-size: 1.3rem;
+    width: auto;
+}
+
+.bg-propio {
+    background-color: var(--color-principal);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.nav-item a:hover {
+    color: var(--color-secundario) !important;
+}
+
+
+ /* Inicio */
+
+ 
+.titulo-main {
+    text-align: center;
+    padding: 0.3em;
+    margin-bottom: 1px;
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 1px;
+    background-color:  #303030;
+    width: 100%;
+}
+
+.main {
+    background-color: #515151;
+}
+
+ .container-index {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color:  #515151;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+}
+
+
+.imgs { display: flex;
+    justify-items: left;
+    justify-content: space-evenly;
+    background-color: #515151;
+    padding-bottom: 6%;
+}
+
+.container-promociones {
+    padding-bottom: 10px;
+    padding-top: 1px;
+    background-color: #515151;
+    padding-top: 3%;
+}
+
+.container-promociones, .card {
+    box-shadow: 12px 11px 31px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 12px 11px 31px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 12px 11px 31px -3px rgba(0, 0, 0, 0.75);
+}
+
+
+ /* Nosotros */ 
+
+.comprar-nosotros {
+    background-color: #515151;
+    color: #000000;
+    padding: 8%;
+}
+
+.comprar-nosotros h5 {
+    color: #ffff;
+    padding-bottom: 1em;
+}
+
+.comprar-nosotros p {
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+ /* Contacto */ 
+
+ .Contactación { background-color: #515151;
+    color: #000000;
+    padding: 10px;
+}
+
+.mb-3 { 
+    width: 50vh;
+}
+
+button {
+    font-family: inherit;
+    font-size: 20px;
+    background: #303030;
+    color: #ffff;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   
+   button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+   button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
+   
+   button:hover span {
+    transform: translateX(5em);
+   }
+   
+   button:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+
+ /* Instrucciones */ 
+   
+ .instrucciones {display: flex;
+    padding: 5%;
+    background-color: #515151;
+    justify-content: center;
+   }
+
+ /* Footer */ 
+
+ .pie-de-pagina {
+    display: flex;
+    flex-direction: row;
+    background-color: #3c3c3c;
+    color: #ffff;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+.pie-de-pagina p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    grid-area: copy;
+}
+
+.tarjetas p{
+    font-size: 1rem;
+}
+
+.envios {
+    padding-top: 10px;
+}
+.envios p{
+    font-size: 1rem;
+}
+
+.tarjetas {
+  padding-top: 7px;  
+}
+
+.redes a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.redes a:hover {
+    color: var(--color-secundario);
+}
+
+/* Media querys mobile hasta 1200px */
+
+@media screen and (min-width:320px) and (max-width: 1200px){
+
+    .container-promociones {
+        text-align: center;
+    }
+
+    .container-card {
+        flex-direction: column;
+    }
+
+    #Search {display: flex;
+        position: absolute ;
+        top: 1.6em;
+        right: 8em;
+        justify-content:flex-start;
+        margin-top:   0.5em;
+        height: 1em;
+    } 
+    
+    #Shop {display: flex;
+        position: absolute ;
+        top: 1.6em;
+        right: 6em;
+        justify-content:flex-start;
+        margin:   0.5em;
+        height: 1em;
+    } 
+    
+    #Cuenta {display: flex;
+        position: absolute ;
+        top: 1.6em;
+        right: 3em;
+        margin-top:   0.5em;
+        height: 1em;
+    } 
+    
+    .h5 {
+        font-size: 18px
+    }
+
+    .container-index {
+        margin-top: 30%;
+    }
+
+    .container-index1{
+        margin-top: 0%;
+    }
+ 
+    .imgs {display:block;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+    
+    .container-texto {
+        display: flex;
+        text-align: center;
+        font-size: 0.3rem;
+    }
+
+    footer {
+        display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         text-align: center;
+         justify-content: center;
+    }
+
+    .envios {
+        padding-bottom: 3em;
+    }
+
+    .tarjetas {
+        padding-bottom: 3em;
+    }
+
+    .redes {
+        padding-bottom: 3em;
+        padding-left: 1.7em;
+    }
+
+    .copy {
+        padding-bottom: 3em;
+    }
+    
+    .pie-de-pagina h6{ font-size: 0.9rem;
+    }
+
+    .pie-de-pagina p{ font-size:  0.7rem;
+    }
+}
