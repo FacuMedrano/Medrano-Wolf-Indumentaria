@@ -1,0 +1,39 @@
+.pie-de-pagina {
+    display: flex;
+    flex-direction: row;
+    background-color: #3c3c3c;
+    color: #ffff;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+.pie-de-pagina p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    grid-area: copy;
+}
+
+.tarjetas p{
+    font-size: 1rem;
+}
+
+.envios {
+    padding-top: 10px;
+}
+.envios p{
+    font-size: 1rem;
+}
+
+.tarjetas {
+  padding-top: 7px;  
+}
+
+.redes a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.redes a:hover {
+    color: var(--color-secundario);
+}

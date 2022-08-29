@@ -1,0 +1,95 @@
+/* Media querys mobile hasta 1200px */
+
+@media screen and (min-width:320px) and (max-width: 1200px){
+
+    .container-promociones {
+        padding-bottom: 40%;
+        padding-top: 10%;
+        background-color: #515151;
+        padding-top: 3%;
+    }
+
+    .container-card {
+        flex-direction: column;
+    }
+
+    #Search {display: flex;
+        position: absolute ;
+        top: 1.6em;
+        right: 8em;
+        justify-content:flex-start;
+        margin-top:   0.5em;
+        height: 1em;
+    } 
+    
+    #Shop {display: flex;
+        position: absolute ;
+        top: 1.6em;
+        right: 6em;
+        justify-content:flex-start;
+        margin:   0.5em;
+        height: 1em;
+    } 
+    
+    #Cuenta {display: flex;
+        position: absolute ;
+        top: 1.7em;
+        right: 3em;
+        margin-top:   0.5em;
+        height: 1em;
+    } 
+    
+    .h5 {
+        font-size: 18px
+    }
+
+    .container-index {
+        margin-top: 35%;
+        padding-bottom: 5%;
+    }
+    
+    .titulo-main {
+        font-size: 1;
+    }
+
+    .container-texto {
+        display: flex;
+        text-align: center;
+        font-size: 0.3rem;
+    }
+
+    footer {
+        display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         text-align: center;
+         justify-content: center;
+    }
+
+    .mb-3 { 
+        width: 80%;
+    }
+
+    .envios {
+        padding-bottom: 3em;
+    }
+
+    .tarjetas {
+        padding-bottom: 3em;
+    }
+
+    .redes {
+        padding-bottom: 3em;
+        padding-left: 1.7em;
+    }
+
+    .copy {
+        padding-bottom: 3em;
+    }
+    
+    .pie-de-pagina h6{ font-size: 0.9rem;
+    }
+
+    .pie-de-pagina p{ font-size:  0.7rem;
+    }
+}

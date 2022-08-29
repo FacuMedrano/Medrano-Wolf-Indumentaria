@@ -1,0 +1,52 @@
+#Search {display: flex;
+    position: absolute ;
+    top: 1em;
+    right: 5em;
+    justify-content:flex-start;
+    margin:   1em;
+    height: 1.3em;
+} 
+
+#Shop {display: flex;
+    position: absolute ;
+    top: 1em;
+    right: 0.5em;
+    justify-content:flex-start;
+    margin:   1em;
+    height: 1.3em;
+} 
+
+#Cuenta {display: flex;
+        position: absolute ;
+        top: 1em;
+        justify-content:start;
+        margin:   1em;
+        height: 1.3em;
+} 
+
+.bg-propio {
+    background-color: var(--color-principal);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #515151;
+    font-size: 1rem;
+    width: auto;
+}
+
+
+.nav-item a {
+    color: white !important;
+
+   &:hover {
+    color: var(--color-secundario) !important;
+}
+}
