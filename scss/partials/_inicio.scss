@@ -15,8 +15,7 @@
 
  .container-index {
     margin-top: 13%;
-    display: flex;
-    justify-content: space-evenly;
+    @include display ($justify:space-evenly);
     padding-bottom: 2%;
 }
 

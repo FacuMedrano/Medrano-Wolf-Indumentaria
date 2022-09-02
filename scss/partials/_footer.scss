@@ -5,35 +5,32 @@
     color: #ffff;
     justify-content: space-around;
     padding-top: 1em;
+    p {
+        font-size: 1.6rem;
+        font-weight: bold;
+        grid-area: copy;
 }
-
-.pie-de-pagina p {
-    font-size: 1.6rem;
-    font-weight: bold;
-    grid-area: copy;
-}
-
-.tarjetas p{
-    font-size: 1rem;
 }
 
 .envios {
     padding-top: 10px;
+    p{
+        font-size: 1rem;
 }
-.envios p{
-    font-size: 1rem;
 }
 
 .tarjetas {
-  padding-top: 7px;  
+  padding-top: 7px; 
+  p{
+    font-size: 1rem;
+} 
 }
 
 .redes a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 1rem;
-}
-
-.redes a:hover {
-    color: var(--color-secundario);
+    &:hover {
+        color: var(--color-secundario);
+    }
 }

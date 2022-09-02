@@ -11,7 +11,7 @@
     }
 
     :root {
-        --color-principal:   #303030;
-        --color-secundario: rgb(77, 77, 77);
+        --color-principal:   map-get($estilos, colorPrimario );
+        --color-secundario:map-get($estilos, colorSecundario );
     }
 
