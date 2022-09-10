@@ -42,7 +42,7 @@
   display: flex;
   position: absolute;
   top: 0.7em;
-  justify-content:start;
+  justify-content: start;
   right: 0.5em;
   margin: 1em;
   height: 2em;
@@ -65,6 +65,8 @@
   font-size: 1rem;
   width: auto;
 }
+
+
 
 .nav-item a {
   color: white !important;
@@ -94,13 +96,13 @@
   margin-top: 13%;
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
 }
 
 .container-promociones {
-  padding-bottom: 2%;
-  padding-top: 2%;
+  padding-top: 3%;
   background-color: #515151;
+  padding-bottom: 3%;
 }
 
 /* Nosotros */
